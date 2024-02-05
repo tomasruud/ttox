@@ -1,6 +1,6 @@
 // Adapted from the "Moon/Dawn" Rose Pine theme https://github.com/ng-hai/rose-pine-blinksh
 const setTheme = ({ matches = false }) => {
-  const darkmode = matches ? dark : light;
+  const darkmode = matches;
 
   t.prefs_.set("cursor-color", "#d5d4d3");
   t.prefs_.set("foreground-color", darkmode ? "#ffffff" : "#080808");

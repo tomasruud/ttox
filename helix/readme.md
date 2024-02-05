@@ -4,5 +4,5 @@ This theme uses the terminal base colors only, meaning that you can use this the
 
 The example screenshots below uses a modified Terminal.app color scheme, without an explicit foreground or background set.
 
-![Screenshot light mode](./screenshot-day.png)
-![Screenshot dark mode](./screenshot-night.png)
+![Screenshot light mode](./day.png)
+![Screenshot dark mode](./night.png)

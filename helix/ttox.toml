@@ -3,16 +3,13 @@
 "ui.selection" = { fg = "white", bg = "gray" }
 "ui.cursor" = { fg = "black", bg = "light-gray" }
 "ui.cursor.primary" = { fg = "black", bg = "light-gray" }
-"ui.cursor.match" = { fg = "default", underline = { style = "line" } }
+"ui.cursor.match" = { underline = { style = "line" } }
 "ui.background.separator" = "gray"
 "ui.linenr" = "gray"
 "ui.linenr.selected" = { fg = "white", bg = "gray" }
 "ui.statusline" = { bg = "black", fg = "white" }
-"ui.menu" = { fg = "white", bg = "black" }
-"ui.menu.selected" = { bg = "light-gray", fg = "black" }
-"ui.popup" = { fg = "white", bg = "black" }
-"ui.help" = { fg = "white", bg = "black" }
-"ui.virtual.ruler" = { underline = { style = "line"} }
+"ui.menu.selected" = { modifiers = ["reversed"] }
+"ui.virtual.ruler" = { underline = { style = "line" } }
 
 "string" = { bg = "light-green", fg = "black" }
 "constant" = { bg = "light-cyan", fg = "black" }
@@ -26,4 +23,4 @@
 "error" = "red"
 "hint" = "gray"
 
-"diagnostic" = { underline = { style = "curl" } }
+"diagnostic" = { underline = { style = "line" } }

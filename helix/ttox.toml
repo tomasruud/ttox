@@ -10,10 +10,11 @@
 "ui.statusline" = { bg = "black", fg = "white" }
 "ui.menu.selected" = { modifiers = ["reversed"] }
 "ui.virtual.ruler" = { underline = { style = "line" } }
+"ui.virtual.jump-label" = { underline = { style = "line" } }
 
-"string" = { bg = "light-green", fg = "black" }
-"constant" = { bg = "light-cyan", fg = "black" }
-"comment" = { bg = "light-magenta", fg = "black" }
+"string" = { fg = "green" }
+"constant" = { fg = "cyan" }
+"comment" = { fg = "magenta" }
 
 "diff.plus" = "green"
 "diff.minus" = "red"

@@ -1,0 +1,15 @@
+# Author : Tomas Ruud <git@me.2ms.no>
+
+"ui.selection" = { fg = "white", bg = "gray" }
+"ui.cursor" = { fg = "black", bg = "light-gray" }
+"ui.cursor.primary" = { fg = "black", bg = "light-gray" }
+"ui.cursor.match" = { underline = { style = "line" } }
+"ui.background.separator" = "gray"
+"ui.linenr" = "gray"
+"ui.linenr.selected" = { fg = "reversed" }
+"ui.statusline" = { modifiers = ["reversed"] }
+"ui.menu.selected" = { modifiers = ["reversed"] }
+"ui.virtual.ruler" = { underline = { style = "line" } }
+"ui.virtual.jump-label" = { underline = { style = "line" } }
+
+"diagnostic" = { underline = { style = "line" } }
